@@ -1,0 +1,88 @@
+<!--
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+	Name:Mathadorix
+
+	Author : Arnaud DURAND
+	mail : durand.arnaud@mathix.org
+	site : http://mathix.org
+	page : http://mathix.org/mathadorix
+	version: 4
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EQUADORIX</title>
+<script defer language="JavaScript" src="fonctions.js"></script>	
+</head>
+
+<body>
+	
+	
+<div id="jeu">
+<table id="equation" style="height:100px;  width: 100%; border='0'"  >
+  <tbody>
+ </tbody>
+</table>	 																								    
+<div id="message" style="display:none"></div>
+
+<div style="display:block;" class="texte" id="conteneuropencours" ><span >Opération en cours : </span><input type="text"  id="opencours"/></div>
+<div id="options" style="display:none">
+<input id="eqaxpb_cxpd" style="background-color:#ffd34e" class="bouton" type="button" value="Equation : ax+b=cx+d" >
+<input id="eqaxpb_d"  class="bouton" type="button" value="Equation : ax+b=d" >
+
+<input id="eqax_d"  class="bouton" type="button" value="Equation : ax=d" >
+<input id="eqxpb_d"  class="bouton" type="button" value="Equation : x+b=d" >
+</div>
+<input id="valider" style="float:left" class="bouton" type="button" value="Valider" > 
+<div style="display:inline;width:100%;">
+<input id="annuler" style="float:left" class="bouton" type="button" value="Annuler" > 
+
+
+
+<input id="nouvelleequation" style="float:right" class="bouton" type="button" value="Nouvelle équation" >
+<input id="boutonoptions" style="float:right" class="bouton" type="button" value="Options" >
+<input id="aide" style="float:right" class="bouton" type="button" value="Aide" >
+
+</div>
+<table id="schema" style="display:none">
+<tr>
+<td></td><td><input style="border:0" type="text" size='2' value="" id="op1" readonly /></td><td></td><td class="c_axpb"><input style="border:0"  type="text" size='2'  value="" id="op2" readonly /></td><td></td>
+</tr>
+
+<tr>
+<td></td><td><img src="flechedroite.png"</td><td></td><td class="c_axpb"><img src="flechedroite.png"</td><td></td>
+</tr>
+<tr>
+<td><input style="border:0"  type="text" size='1'  value="x" readonly /></td><td></td><td > <input style="border:0"  type="text" size='2'  value="" id="ax" readonly /></td><td></td><td class="c_axpb"><input style="border:0"  type="text" size='6'  value="" id="axpb" readonly /></td>
+</tr>
+<tr>
+<td></td><td><img src="flechegauche.png"</td><td></td><td class="c_axpb"><img src="flechegauche.png"</td><td></td>
+</tr>
+<tr>
+<td></td><td><input style="border:0"  type="text" size='2' value="" id="rop1" readonly /></td><td></td><td class="c_axpb"><input style="border:0"  type="text" size='2' value="" id="rop2" readonly /></td><td></td>
+</tr>
+<div>Auteur : Arnaud Durand<br/>
+Licence GPL v3</div>
+</div>
+</div>
+<div id="infobulle" class="infobulle"></div>
+</body>
+</html>
+
+
+
