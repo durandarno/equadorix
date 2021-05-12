@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    src: url('font/cursif-webfont.eot');
+    src: url('font/cursif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/cursif-webfont.woff2') format('woff2'),
+         url('font/cursif-webfont.woff') format('woff'),
+         url('font/cursif-webfont.ttf') format('truetype'),
+         url('font/cursif-webfont.svg#cursif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#conteneuropencours
+{
+padding-top:20px;
+}
 .fraction {
     display: inline-block;
     vertical-align: middle; 
@@ -14,6 +29,7 @@
 td{
 text-align:center;
 vertical-align:middle;
+
 }
 
 
@@ -24,7 +40,7 @@ vertical-align:middle;
 	text-align: center;
 	font-family:Arial;
 
-	font: 150%/100% Arial,Helvetica,sans-serif;
+	font: 150%/100%  Gloria Hallelujah,Helvetica,sans-serif;
 	height: 48px;
 }
 
@@ -42,7 +58,7 @@ vertical-align:middle;
 	border-radius: 5px;
 	color: #444444;
 
-	font: 150%/100% Arial,Helvetica,sans-serif;
+	font: 150%/100%  Gloria Hallelujah,Helvetica,sans-serif;
 	height: 48px;
 	margin:auto;
 
@@ -70,7 +86,7 @@ vertical-align:middle;
 	border-radius: 5px;
 	color: #444444;
 
-	font: 150%/100% Arial,Helvetica,sans-serif;
+	font: 150%/100%  Gloria Hallelujah,Helvetica,sans-serif;
 	height: 48px;
 	margin-left: 0;
 	margin-top: 10px;
@@ -91,7 +107,7 @@ vertical-align:middle;
 	vertical-align:middle;
 	height:108px;
 	font-family:Arial;
-	font: 150%/100% Arial,Helvetica,sans-serif;
+	font: 150%/100%  Gloria Hallelujah,Helvetica,sans-serif;
 }
 
 .bouton
@@ -105,7 +121,7 @@ vertical-align:middle;
 	border-radius: 5px;
 	color: #444444;
 
-	font: 150%/100% Arial,Helvetica,sans-serif;
+	font: 100%/100%  Gloria Hallelujah,Helvetica,sans-serif;
 	height: 48px;
 	margin-left: 0;
 	margin-top: 10px;
@@ -136,3 +152,4 @@ vertical-align:middle;
     font-size: 10px;
     background-color: #ffd34e;
 }
+

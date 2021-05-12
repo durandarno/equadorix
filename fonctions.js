@@ -1141,6 +1141,16 @@ function valider()
 				break;
 			}
 		}
+		if (nb3 == 0 && addsous2 == false)
+        {
+            addsous2 = true;
+            nb4=-nb4;
+        }
+        if (nb1 == 0 && addsous1 == false)
+        {
+            addsous1 = true;
+            nb2=-nb2;
+        }
 		if (ajoutligne)
 		{
 			afficheoperation(operation);
